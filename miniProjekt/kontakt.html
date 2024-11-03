@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Higiena dla Informatyków</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="flex-container">
+        <div style="color: #175348">Higiena dla informatyków</div>
+      </div>
+    </header>
+    <nav>
+      <div class="navbar">
+        <a href="home.html">Strona główna</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+    </nav>
+
+    <div class="flex-container2">
+      <div style="font-size: 20px">
+        <form style="padding: 20px">
+          <label for="mail">E-mail:</label><br />
+          <input
+            type="email"
+            id="mail"
+            placeholder="nazwisko@gmail.com"
+            style="margin: 10px"
+          />
+          <br />
+
+          <input type="radio" id="wada" name="opcja" />
+          <label for="wada">Wada na stronie</label>
+          <input type="radio" id="higien" name="opcja" />
+          <label for="higien">Kim był ten cały Higien</label>
+          <input type="radio" id="inne" name="opcja" />
+          <label for="inne">Inne</label><br />
+
+          <textarea
+            style="margin: 10px"
+            name="message"
+            rows="8"
+            cols="30"
+            placeholder="Napisz tu wiadomość."
+          ></textarea
+          ><br />
+
+          <input type="submit" value="Wyślij" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="flex-container"><div>Zuzanna Jedynak</div></div>
+    </footer>
+  </body>
+</html>

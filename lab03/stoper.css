@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+  font-family: Verdana;
+  background-color: bisque;
+  color: #533f34;
+}
+
+p {
+  font-size: 30px;
+  font-family: Verdana;
+  padding: 20px;
+  text-align: center;
+  background-color: #b4a59c;
+  color: #533f34;
+}
+
+button {
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+  font-family: Verdana;
+  background-color: bisque;
+  cursor: pointer;
+  color: #533f34;
+  border-radius: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  background-color: #533f34;
+
+  justify-content: center;
+}

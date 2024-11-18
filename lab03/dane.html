@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="dane.css" />
+  </head>
+  <body>
+    <div class="top">
+      <h1>Produkty</h1>
+      <form>
+        <input type="text" id="search" class="option" placeholder="Szukaj" />
+        <select id="order" class="option">
+          <option>Oryginalna kolejność</option>
+          <option>Malejąco</option>
+          <option>Rosnąco</option>
+        </select>
+      </form>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Nazwa</th>
+          <th>Opis</th>
+        </tr>
+      </thead>
+      <tbody id="produkty"></tbody>
+    </table>
+    <script src="dane.js"></script>
+  </body>
+</html>
